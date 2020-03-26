@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Counter from '../components/Counter';
+
 const Wrapper = styled.div`
     margin: 50px 0;
     padding: 40px;
@@ -13,6 +15,7 @@ const Wrapper = styled.div`
 const Page = props => (
     <Wrapper>
         { props.children }
+        <Counter/>
     </Wrapper>
 );
 
