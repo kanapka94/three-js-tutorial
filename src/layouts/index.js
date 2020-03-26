@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Counter from '../components/Counter';
+import ShoppingList from '../components/ShoppingList';
 
 const Wrapper = styled.div`
     margin: 50px 0;
@@ -16,6 +17,7 @@ const Page = props => (
     <Wrapper>
         { props.children }
         <Counter/>
+        <ShoppingList/>
     </Wrapper>
 );
 
